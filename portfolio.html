@@ -32,11 +32,23 @@
       </ul>
       <ul class="menu-contact">
         <li>
-          <a class="contact" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
+          <a class="icon-link" href="mailto:info@devstudio.com">
+            <svg width="16" height="12">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            <a class="contact" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            ></a
           >
         </li>
-        <li><a class="contact" href="tel:+48111111111">+48 111 111 111</a></li>
+        <li>
+          <a class="icon-link" href="tel:+48111111111">
+            <svg width="10" height="16">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+          </a>
+          <a class="contact" href="tel:+48111111111">+48 111 111 111</a>
+        </li>
       </ul>
     </header>
     <main>
@@ -145,31 +157,68 @@
       </section>
     </main>
     <footer class="page-footer">
-      <a class="logo footer-logo" href="./index.html"
-        ><span class="half-logo">Web</span>Studio</a
-      >
-      <address>
-        <ul>
-          <li>
-            <a
-              class="contact adr"
-              href="https://www.google.co.uk/maps"
-              target="_blank"
-              >m. Warszawa, Aleje Jerozolimskie 21</a
-            >
-          </li>
-          <li>
-            <a class="contact-footer" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li>
-            <a class="contact-footer" href="tel:+48111111111"
-              >+48 111 111 111</a
-            >
-          </li>
-        </ul>
-      </address>
+      <div class="footer-section">
+        <div>
+          <a class="logo footer-logo" href="#"
+            ><span class="half-logo">Web</span>Studio</a
+          >
+          <address>
+            <ul>
+              <li>
+                <a
+                  class="contact adr"
+                  href="https://www.google.co.uk/maps"
+                  target="_blank"
+                  >m. Warszawa, Aleje Jerozolimskie 21</a
+                >
+              </li>
+              <li>
+                <a class="contact-footer" href="mailto:info@example.com"
+                  >info@example.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-footer" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <div>
+          <div class="link-description">Dołącz do nas</div>
+          <ul class="page-link">
+            <li>
+              <a class="links" href="#">
+                <svg width="22" height="22">
+                  <use href="./images/icons.svg#icon-instagram-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="links" href="#">
+                <svg width="22" height="22">
+                  <use href="./images/icons.svg#icon-twitter-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="links" href="#">
+                <svg width="22" height="22">
+                  <use href="./images/icons.svg#icon-facebook-1"></use>
+                </svg>
+              </a>
+            </li>
+            <li>
+              <a class="links" href="#">
+                <svg width="22" height="22">
+                  <use href="./images/icons.svg#icon-linkedin-1"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </footer>
   </body>
 </html>
